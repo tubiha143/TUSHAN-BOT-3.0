@@ -1,5 +1,5 @@
  .exports.config = {
-    name: "!admin",
+    name: "!Admin",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
