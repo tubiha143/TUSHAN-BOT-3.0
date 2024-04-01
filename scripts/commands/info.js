@@ -1,5 +1,5 @@
  .exports.config = {
-    name: "!Admin",
+    name: "info",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
@@ -28,8 +28,8 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
   
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
-𝐍𝐚𝐦𝐞       : 𝐓𝐔𝐒𝐇𝐀𝐍-𝐁𝐎𝐓-💌   ᯽❄︎̶ͥᚐ ▸
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : ㅤ𝐓𝐔𝐒𝐇𝐀𝐍
+𝐍𝐚𝐦𝐞       : ✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓  ᯽▸🤍🩷❄︎
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : ㅤ✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘  ᯽▸🤍🩷❄︎
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝐈𝐬𝐥𝐚𝐦
 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐁𝐑𝐀𝐇𝐌𝐀𝐍𝐁𝐀𝐑𝐈𝐀
 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐃𝐔𝐁𝐀𝐈
@@ -42,6 +42,6 @@ var callback = () => api.sendMessage({body:`
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/playboytushan
 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/tushann143?mibextid=ZbWKwL`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
-      return request(encodeURI(`https://graph.facebook.com/100000959749712/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
+      return request(encodeURI(`https://www.facebook.com/tushann143?mibextid=ZbWKwL/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
    };
