@@ -54,11 +54,9 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("ツ●───༊᭄࿐❥
-🥵💦লুৃঁখিৃঁং টুৃঁ ফাৃঁকিৃঁ_ওৃঁয়েৃঁলখাৃঁমৃঁ টুৃঁ পোৃঁলাৃঁবাৃঁজৃঁ জে্ঁরি্ঁ ইৃঁজৃঁ খাৃঁমিৃঁং 💦🥵🖤
-ツ●───༊᭄࿐❥🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("ツ●───༊᭄࿐❥🥵💦লুৃঁখিৃঁং টুৃঁ ফাৃঁকিৃঁ ওৃঁয়েৃঁলখাৃঁমৃঁ টুৃঁ পোৃঁলাৃঁবাৃঁজৃঁ জে্ঁরি্ঁ ইৃঁজৃঁ খাৃঁমিৃঁং 💦🥵🖤ツ●───༊᭄࿐❥🤭!" , event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓_🥵💦 CONNECTED SUCCESFUL !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
@@ -66,15 +64,15 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Mohammad Nayan 
+DEVELOPER : 𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓🥵💦
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/www.xnxx.com169
+https://www.facebook.com/profile.php?id=61557829625285
 
-🔵WHATSAPP NUMBER: wa.me/+8801615298449
+🔵WHATSAPP NUMBER: wa.me/+971503450265
 
-🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: ilovemymaa131@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
 })
 .catch(error => {
     console.error(error);
