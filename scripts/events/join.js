@@ -54,7 +54,7 @@ let gifPath = __dirname + '/Nayan/join/join.gif';
 axios.get(gifUrl, { responseType: 'arraybuffer' })
 .then(response => {
     fs.writeFileSync(gifPath, response.data);
-    return api.sendMessage("ツ●───༊᭄࿐❥🥵💦লুৃঁখিৃঁং টুৃঁ ফাৃঁকিৃঁ ওৃঁয়েৃঁলখাৃঁমৃঁ টুৃঁ পোৃঁলাৃঁবাৃঁজৃঁ জে্ঁরি্ঁ ইৃঁজৃঁ খাৃঁমিৃঁং 💦🥵🖤ツ●───༊᭄࿐❥🤭!" , event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("ツ🥵💦লুৃঁখিৃঁং টুৃঁ ফাৃঁকিৃঁ ওৃঁয়েৃঁলখাৃঁমৃঁ টুৃঁ পোৃঁলাৃঁবাৃঁজৃঁ জে্ঁরি্ঁ ইৃঁজৃঁ খাৃঁমিৃঁং 💦🥵🖤ツ🤭!" , event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓_🥵💦 CONNECTED SUCCESFUL !!! 
 
@@ -64,7 +64,7 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER : 𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓🥵💦
+DEVELOPER :𝐉𝐄𝐑𝐑𝐘-𝐁𝐎𝐓-💌   ᯽❄︎̶ͥᚐ ▸
 
 🟣Facebook Account Link: 
 
