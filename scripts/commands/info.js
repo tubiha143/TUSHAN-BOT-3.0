@@ -1,5 +1,5 @@
-  module.exports.config = {
-    name: "info",
+module.exports.config = {
+    name: "admin",
     version: "1.0.0",
     permission: 0,
     credits: "nayan",
@@ -29,7 +29,7 @@ var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
 var callback = () => api.sendMessage({body:`
 --------------------------------------------
 𝐍𝐚𝐦𝐞       : ✌︎⎯⃝𝐌𝐑.𝐓𝐔𝐒𝐇𝐀𝐍  ᯽▸🤍🩷❄︎
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : ㅤ✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘  ᯽▸🤍🩷❄︎
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 : ✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘  ᯽▸🤍🩷❄︎
 𝐑𝐞𝐥𝐢𝐠𝐢𝐨𝐧   : 𝐈𝐒𝐋𝐀𝐌_😇
 𝐏𝐞𝐫𝐦𝐚𝐧𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐁𝐑𝐀𝐇𝐌𝐀𝐍𝐁𝐀𝐑𝐈𝐀, 𝐁𝐀𝐍𝐆𝐋𝐀𝐃𝐄𝐒𝐇_🇧🇩
 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 𝐀𝐝𝐝𝐫𝐞𝐬𝐬: 𝐃𝐔𝐁𝐀𝐈_🇦🇪
@@ -40,7 +40,7 @@ var callback = () => api.sendMessage({body:`
 𝐆𝐦𝐚𝐢𝐥       : ilovemymaa131@gmail.com
 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: wa.me/+971503450265
 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦  : t.me/playboytushan
-𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/tushann143?mibextid=ZbWKwL`,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
+𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐋𝐢𝐧𝐤 : https://www.facebook.com/tushann143 `,attachment: fs.createReadStream(__dirname + "/cache/1.png")}, event.threadID, () => 
     fs.unlinkSync(__dirname + "/cache/1.png"));  
       return request(encodeURI(`https://www.facebook.com/tushann143?mibextid=ZbWKwL/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`)).pipe(
 fs.createWriteStream(__dirname+'/cache/1.png')).on('close',() => callback());
