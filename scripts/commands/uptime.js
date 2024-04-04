@@ -103,7 +103,7 @@ let l1 = await loadImage(pathAva);
     ctx.filter = "brightness(90%) contrast(110%)";
     ctx.font = "130px phenomicon";
     ctx.fillStyle = lengthchar[id].colorBg;
-    ctx.fillText("UPTIME ROBOT", 95, 340);
+    ctx.fillText("✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓  ᯽▸🤍🩷❄︎", 95, 340);
     ctx.beginPath();
   ////////////////////////////////////////
    registerFont(__dirname + `/nayan/UTM-Avo.ttf`, {
@@ -120,8 +120,8 @@ registerFont(__dirname + `/nayan/CaviarDreams.ttf`, {
     });
     ctx.textAlign = "start";
     ctx.font = "45px time";
-    ctx.fillText("@" + "www.xnxx.com169", 250, 515)
-    ctx.fillText("@" + "MOHAMMAD-NAYAN", 250, 575)
+    ctx.fillText("@" + "XXX.TUSHAN.COM", 250, 515)
+    ctx.fillText("@" + "✌︎⎯⃝𝐌𝐑.𝐓𝐔𝐀𝐇𝐀𝐍  ᯽▸🤍🩷❄︎", 250, 575)
    //ctx.fillText("@" + "DVFB.VietLe.pro", 405, 750)
     ctx.restore();
     ctx.save();
