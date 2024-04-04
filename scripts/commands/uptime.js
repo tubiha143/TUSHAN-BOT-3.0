@@ -70,7 +70,7 @@ const time = process.uptime() ,
   } else {
     var id = k
   }
-  const loz = ["https://i.imgur.com/9jbBPIM.jpg","https://i.imgur.com/cPvDTd9.jpg","https://i.imgur.com/ZT8CgR1.jpg","https://i.imgur.com/WhOaTx7.jpg","https://i.imgur.com/BIcgJOA.jpg","https://i.imgur.com/EcJt1yq.jpg","https://i.imgur.com/0dtnQ2m.jpg"]
+  const loz = ["https://ibb.co/71DSz60","https://i.imgur.com/cPvDTd9.jpg","https://i.imgur.com/ZT8CgR1.jpg","https://i.imgur.com/WhOaTx7.jpg","https://i.imgur.com/BIcgJOA.jpg","https://i.imgur.com/EcJt1yq.jpg","https://i.imgur.com/0dtnQ2m.jpg"]
     const lengthchar = (await axios.get('https://raw.githubusercontent.com/mraikero-01/saikidesu_data/main/imgs_data2.json')).data
     console.log(lengthchar.length)
   const Canvas = require('canvas');
@@ -103,7 +103,7 @@ let l1 = await loadImage(pathAva);
     ctx.filter = "brightness(90%) contrast(110%)";
     ctx.font = "130px phenomicon";
     ctx.fillStyle = lengthchar[id].colorBg;
-    ctx.fillText("✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓  ᯽▸🤍🩷❄︎", 95, 340);
+    ctx.fillText("✌︎⎯⃝𝐉𝐄𝐑𝐑𝐘_𝐁𝐎𝐓 ", 95, 340);
     ctx.beginPath();
   ////////////////////////////////////////
    registerFont(__dirname + `/nayan/UTM-Avo.ttf`, {
@@ -120,7 +120,7 @@ registerFont(__dirname + `/nayan/CaviarDreams.ttf`, {
     });
     ctx.textAlign = "start";
     ctx.font = "45px time";
-    ctx.fillText("@" + "XXX.TUSHAN.COM", 250, 515)
+    ctx.fillText("@" + "𝐗𝐗𝐗.𝐓𝐔𝐒𝐇𝐀𝐍.𝐂𝐎𝐌", 250, 515)
     ctx.fillText("@" + "✌︎⎯⃝𝐌𝐑.𝐓𝐔𝐀𝐇𝐀𝐍  ᯽▸🤍🩷❄︎", 250, 575)
    //ctx.fillText("@" + "DVFB.VietLe.pro", 405, 750)
     ctx.restore();
