@@ -1,4 +1,4 @@
-module🥱.exports.config = {
+module.exports.config = {
 	name: "uptime",
 	version: "0.0.2",
 	permission: 0,
